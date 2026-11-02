@@ -60,7 +60,3 @@ multi-agent-research-assistant/
 ├── .env.example
 └── README.md
 ```
-
-## Notes for your resume/interview
-
-This project demonstrates: multi-agent orchestration with explicit state and handoffs (not just prompt chaining), tool-use (web search), a verification/critique step (fact-checking) rather than blind LLM output, and a deployable UI. Good talking points: why a graph over a simple chain (conditional/branching flows are possible later, e.g. looping back to `search` if fact-checking fails), and how you'd extend it (parallel search agents, human-in-the-loop approval before `write`, caching/rate-limit handling for the search API).
